@@ -11,9 +11,7 @@ Visit the [Javascript Cheat Sheet](https://htmlcheatsheet.com/js) and [HTML Canv
 # Copy Paste Code
 
 ```
-<!DOCTYPE html><html><head>
-<script src="https://cdn.jsdelivr.net/gh/mcnole25/testing.js@master/testing.js"></script>
-</head><body><script>
+<!DOCTYPE html><html><head><script src="https://cdn.jsdelivr.net/gh/mcnole25/testing.js@master/testing.js"></script></head><body><script>
 // Your code here...
 </script></body></html>
 ```
