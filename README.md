@@ -13,7 +13,7 @@ Visit the [Javascript Cheat Sheet](https://htmlcheatsheet.com/js) and [HTML Canv
 # Copy Paste Code
 
 ```
-<!DOCTYPE html><html><head><script src="https://cdn.jsdelivr.net/gh/mcnole25/testing.js/testing.js"></script></head><body><script>
+<!DOCTYPE html><html><head><script src="https://rawcdn.githack.com/mcnole25/testing.js/cab0a5dcd9ce6bb2490ca9c11beacc84fdfa531a/testing.js"></script></head><body><script>
 // Your code here...
 </script></body></html>
 ```
@@ -33,6 +33,8 @@ createSlider(*id*, *min*, *max*, *step*) - Creates a new input slider with these
 createCanvas(*width*, *height*) - Creates a new canvas for the document, like p5.js. Check the canvas reference for more info.
 
 drawCube(*x*, *y*, *size*, *hue*) - Draws an isometric cube (approximation) to the canvas.
+
+isPrime(*num*) - Checks if a number is a prime number, and returns a boolean.
 
 # Variables
 
