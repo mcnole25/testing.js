@@ -6,6 +6,8 @@ Sometimes basic things in JS require long functions, so I made a library for the
 
 Note: This library is more for my use, so all code is subject to change.
 
+**Found a(ny) bug(s) in the code? Please submit an issue to let me know.**
+
 Visit the [Javascript Cheat Sheet](https://htmlcheatsheet.com/js) and [HTML Canvas Reference](https://www.w3schools.com/tags/ref_canvas.asp) to learn basic Javascript.
 
 # Copy Paste Code
