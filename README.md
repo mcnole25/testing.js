@@ -13,7 +13,7 @@ Visit the [Javascript Cheat Sheet](https://htmlcheatsheet.com/js) and [HTML Canv
 # Copy Paste Code
 
 ```
-<!DOCTYPE html><html><head><script src="https://rawcdn.githack.com/mcnole25/testing.js/cab0a5dcd9ce6bb2490ca9c11beacc84fdfa531a/testing.js"></script></head><body><script>
+<!DOCTYPE html><html><head><script src="https://rawcdn.githack.com/mcnole25/testing.js/43fab710e6d56d362c0242782d4f9fe5b7019a94/testing.js"></script></head><body><script>
 // Your code here...
 </script></body></html>
 ```
