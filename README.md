@@ -32,8 +32,12 @@ createCanvas(*width*, *height*) - Creates a new canvas for the document, like p5
 
 drawCube(*x*, *y*, *size*, *hue*) - Draws an isometric cube (approximation) to the canvas.
 
+generatePrimes(*max*) - Generates prime numbers (2, 3, 5, 7, etc.) and returns an array.
+
 # Variables
 
 mouseX / mouseY - Self explanatory. Returns cursor X/Y position.
 
 ctx - Variable for 2D canvas context.
+
+z1, z2, z3, etc. - These are variables used internally by functions. Do NOT use them.
