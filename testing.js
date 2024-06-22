@@ -65,4 +65,3 @@ ctx.closePath();
 ctx.fillStyle = "hsl(" + z22 + ", 100%, 65%)";
 ctx.fill();
 }
-// Update test for raw.githack. If this comment appears, everything is ok.
