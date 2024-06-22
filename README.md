@@ -30,6 +30,8 @@ createSlider(*id*, *min*, *max*, *step*) - Creates a new input slider with these
 
 createCanvas(*width*, *height*) - Creates a new canvas for the document, like p5.js. Check the canvas reference for more info.
 
+drawCube(*x*, *y*, *size*, *hue*) - Draws an isometric cube (approximation) to the canvas.
+
 # Variables
 
 mouseX / mouseY - Self explanatory. Returns cursor X/Y position.
