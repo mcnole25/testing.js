@@ -66,10 +66,10 @@ ctx.fillStyle = "hsl(" + z22 + ", 100%, 65%)";
 ctx.fill();
 }
 function getPrimes(z25) {
-let z23 = [];
+z23 = [];
 for (j = 0; j <= z25; j++) {
 z24 = false;
-for (let i = 2; i <= z23.length && !z24; i++) {
+for (i = 2; i <= z23.length && !z24; i++) {
 if (j % z23[i] === 0) {
 z24 = true;
 }
