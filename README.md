@@ -34,8 +34,6 @@ createCanvas(*width*, *height*) - Creates a new canvas for the document, like p5
 
 drawCube(*x*, *y*, *size*, *hue*) - Draws an isometric cube (approximation) to the canvas.
 
-getPrimes(*max*) - Generates prime numbers (2, 3, 5, 7, etc.) and returns an array.
-
 # Variables
 
 mouseX / mouseY - Self explanatory. Returns cursor X/Y position.
