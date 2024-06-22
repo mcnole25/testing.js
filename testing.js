@@ -57,7 +57,7 @@ ctx.closePath();
 ctx.fillStyle = "hsl(" + z22 + ", 100%, 50%)";
 ctx.fill();
 ctx.beginPath();
-    ctx.moveTo(z19, z20 - z21 * 1.125);
+ctx.moveTo(z19, z20 - z21 * 1.125);
 ctx.lineTo(z19 - z21, z20 - z21 * 1.125 - z21 * 0.5);
 ctx.lineTo(z19 - z21 + z21, z20 - z21 * 1.125 - (z21 * 0.5 + z21 * 0.5));
 ctx.lineTo(z19 + z21, z20 - z21 * 1.125 - z21 * 0.5);
