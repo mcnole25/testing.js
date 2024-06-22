@@ -39,3 +39,29 @@ z16.height = z18;
 document.body.appendChild(z16);
 ctx = myCanvas.getContext("2d");
 }
+function drawCube(z19, z20, z21, z22) {
+ctx.beginPath();
+ctx.moveTo(z19, z20);
+ctx.lineTo(z19 - z21, z20 - z21 * 0.5);
+ctx.lineTo(z19 - z21, z20 - z21 * 1.125 - z21 * 0.5);
+ctx.lineTo(z19, z20 - z21 * 1.125 * 1);
+ctx.closePath();
+ctx.fillStyle = "hsl(" + z22 + ", 100%, 35%)";
+ctx.fill();
+ctx.beginPath();
+ctx.moveTo(z19, z20);
+ctx.lineTo(z19 + z21, z20 - z21 * 0.5);
+ctx.lineTo(z19 + z21, z20 - z21 * 1.125 - z21 * 0.5);
+ctx.lineTo(z19, z20 - z21 * 1.125 * 1);
+ctx.closePath();
+ctx.fillStyle = "hsl(" + z22 + ", 100%, 50%)";
+ctx.fill();
+ctx.beginPath();
+    ctx.moveTo(z19, z20 - z21 * 1.125);
+ctx.lineTo(z19 - z21, z20 - z21 * 1.125 - z21 * 0.5);
+ctx.lineTo(z19 - z21 + z21, z20 - z21 * 1.125 - (z21 * 0.5 + z21 * 0.5));
+ctx.lineTo(z19 + z21, z20 - z21 * 1.125 - z21 * 0.5);
+ctx.closePath();
+ctx.fillStyle = "hsl(" + z22 + ", 100%, 65%)";
+ctx.fill();
+}
