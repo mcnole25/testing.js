@@ -66,7 +66,9 @@ ctx.fillStyle = "hsl(" + z22 + ", 100%, 65%)";
 ctx.fill();
 }
 function isPrime(z23) {
-for (z24 = 2; z24 < z23; z24++)
-if (z23 % z24 === 0) return false;
+if (z23 === 2) return true;
+if (z23 % 2 === 0) return false;
+for (z24 = 3; z24 <= Math.sqrt(z23); z24 += 2)
+if (z23 % z24 === 0) return false; 
 return z23 > 1;
 }
