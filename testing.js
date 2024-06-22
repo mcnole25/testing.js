@@ -65,17 +65,3 @@ ctx.closePath();
 ctx.fillStyle = "hsl(" + z22 + ", 100%, 65%)";
 ctx.fill();
 }
-function getPrimes(z25) {
-z23 = [];
-for (j = 0; j <= z25; j++) {
-z24 = false;
-for (i = 2; i <= z23.length && !z24; i++) {
-if (j % z23[i] === 0) {
-z24 = true;
-}
-}
-if (!(z24)) z23.push(j);
-}
-z23.splice(0, 2);
-return z23;
-}
