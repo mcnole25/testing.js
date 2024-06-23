@@ -13,7 +13,7 @@ Visit the [Javascript Cheat Sheet](https://htmlcheatsheet.com/js) and [HTML Canv
 # Copy Paste Code
 
 ```
-<!DOCTYPE html><html><head><script src="https://rawcdn.githack.com/mcnole25/testing.js/46a4de2b5163568557cdc3b43faebe655d43b88e/testing.js"></script></head><body><script>
+<!DOCTYPE html><html><head><script src="https://rawcdn.githack.com/mcnole25/testing.js/cf9fa683b08e210077b446605c636c8b45076e20/testing.js"></script></head><body><script>
 // Your code here...
 </script></body></html>
 ```
@@ -28,13 +28,17 @@ createButton(*text*, *function*) - Creates a button with text and a function.
 
 createInput(*id*) - Creates a new text input. ID parameter is required.
 
-createSlider(*id*, *min*, *max*, *step*) - Creates a new input slider with these parameters. Default value for sliders are 0.
+createSlider(*id*, *min*, *max*, *step*, *value*) - Creates a new input slider with these parameters. Default value for sliders are 0.
 
 createCanvas(*width*, *height*) - Creates a new canvas for the document, like p5.js. Check the canvas reference for more info.
 
 drawCube(*x*, *y*, *size*, *hue*) - Draws an isometric cube (approximation) to the canvas.
 
 isPrime(*num*) - Checks if a number is a prime number, and returns a boolean.
+
+printStyle(*line*, *colour*, *font size*, *font family*) - Edits a text's CSS for better styles.
+
+backgroundColor(*colour*) - Edits the background's colour.
 
 # Variables
 
