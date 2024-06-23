@@ -51,3 +51,6 @@ document.getElementsByTagName("div")[z20].style.color = z21;
 document.getElementsByTagName("div")[z20].style.fontSize = z22 + "px";
 document.getElementsByTagName("div")[z20].style.fontFamily = z25;
 }
+function backgroundColor(z26) {
+document.querySelector("body").style.backgroundColor = z26;
+}
