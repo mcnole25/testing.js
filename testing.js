@@ -17,14 +17,14 @@ let z8 = document.createElement("input");
 z8.id = z9;
 document.body.appendChild(z8);
 }
-function createSlider(z11, z12, z13, z14) {
+function createSlider(z11, z12, z13, z14, z19) {
 let z10 = document.createElement("input");
 z10.type = "range";
-z10.value = 0;
 z10.id = z11;
 z10.min = z12;
 z10.max = z13;
 z10.step = z14;
+z10.value = z19;
 document.body.appendChild(z10);
 }
 document.onmousemove = function(z15) {
@@ -39,36 +39,15 @@ z16.height = z18;
 document.body.appendChild(z16);
 ctx = myCanvas.getContext("2d");
 }
-function drawCube(z19, z20, z21, z22) {
-ctx.beginPath();
-ctx.moveTo(z19, z20);
-ctx.lineTo(z19 - z21, z20 - z21 * 0.5);
-ctx.lineTo(z19 - z21, z20 - z21 * 1.125 - z21 * 0.5);
-ctx.lineTo(z19, z20 - z21 * 1.125 * 1);
-ctx.closePath();
-ctx.fillStyle = "hsl(" + z22 + ", 100%, 35%)";
-ctx.fill();
-ctx.beginPath();
-ctx.moveTo(z19, z20);
-ctx.lineTo(z19 + z21, z20 - z21 * 0.5);
-ctx.lineTo(z19 + z21, z20 - z21 * 1.125 - z21 * 0.5);
-ctx.lineTo(z19, z20 - z21 * 1.125 * 1);
-ctx.closePath();
-ctx.fillStyle = "hsl(" + z22 + ", 100%, 50%)";
-ctx.fill();
-ctx.beginPath();
-ctx.moveTo(z19, z20 - z21 * 1.125);
-ctx.lineTo(z19 - z21, z20 - z21 * 1.125 - z21 * 0.5);
-ctx.lineTo(z19 - z21 + z21, z20 - z21 * 1.125 - (z21 * 0.5 + z21 * 0.5));
-ctx.lineTo(z19 + z21, z20 - z21 * 1.125 - z21 * 0.5);
-ctx.closePath();
-ctx.fillStyle = "hsl(" + z22 + ", 100%, 65%)";
-ctx.fill();
-}
 function isPrime(z23) {
 if (z23 === 2) return true;
 if (z23 % 2 === 0) return false;
 for (z24 = 3; z24 <= Math.sqrt(z23); z24 += 2)
 if (z23 % z24 === 0) return false; 
 return z23 > 1;
+}
+function printStyle(z20, z21, z22, z25) {
+document.getElementsByTagName("div")[z20].style.color = z21;
+document.getElementsByTagName("div")[z20].style.fontSize = z22 + "px";
+document.getElementsByTagName("div")[z20].style.fontFamily = z25;
 }
