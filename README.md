@@ -32,8 +32,6 @@ createSlider(*id*, *min*, *max*, *step*, *value*) - Creates a new input slider w
 
 createCanvas(*width*, *height*) - Creates a new canvas for the document, like p5.js. Check the canvas reference for more info.
 
-drawCube(*x*, *y*, *size*, *hue*) - Draws an isometric cube (approximation) to the canvas.
-
 isPrime(*num*) - Checks if a number is a prime number, and returns a boolean.
 
 printStyle(*line*, *colour*, *font size*, *font family*) - Edits a text's CSS for better styles.
