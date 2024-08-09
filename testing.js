@@ -54,3 +54,17 @@ document.getElementsByTagName("div")[z20].style.fontFamily = z25;
 function backgroundColor(z26) {
 document.querySelector("body").style.backgroundColor = z26;
 }
+function bigSqrt(z29, z30) {
+let z27 = 0n;
+let z28 = 2n ** ((BigInt(z30) + 10n) * 4n);
+while (z28 > 0n) {
+if (z27 ** 2n > BigInt(z29) * 10n ** (BigInt(z30) * 2n)) {
+z27 -= z28;
+} else {
+z27 += z28;
+}
+z28 /= 2n;
+}
+z27 /= 10n;
+return String(String(z27).slice(0, String(z27).length - Number(z30) + 1)) + "." + String(String(z27).slice(String(z27).length - Number(z30) + 1, String(z27).length));
+}
