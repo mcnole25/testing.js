@@ -13,7 +13,7 @@ Visit the [Javascript Cheat Sheet](https://htmlcheatsheet.com/js) and [HTML Canv
 # Copy Paste Code
 
 ```
-<!DOCTYPE html><html><head><script src="https://rawcdn.githack.com/mcnole25/testing.js/cf9fa683b08e210077b446605c636c8b45076e20/testing.js"></script></head><body><script>
+<!DOCTYPE html><html><head><script src="https://rawcdn.githack.com/mcnole25/testing.js/75445d80c731bfcaca5be655cd9e73d1f627fc0c/testing.js"></script></head><body><script>
 // Your code here...
 </script></body></html>
 ```
@@ -37,6 +37,8 @@ isPrime(*num*) - Checks if a number is a prime number, and returns a boolean.
 printStyle(*line*, *colour*, *font size*, *font family*) - Edits a text's CSS for better styles.
 
 backgroundColor(*colour*) - Edits the background's colour.
+
+bigSqrt(*value*, *precision*) - Returns a precise square root value string, with required decimal digits minus one. May break at extremely high value/precision.
 
 # Variables
 
